@@ -1,0 +1,7 @@
+<nav class="navbar navbar-light bg-light justify-content-between">
+    <a class="navbar-brand">Easy Shopping</a>
+    <div>
+      <i class="icon-shopping-cart"></i>
+      <span *ngIf="totalItemInCart" class='badge badge-warning' id='lblCartCount'> {{ totalItemInCart }} </span>
+    </div>
+</nav>

@@ -1,0 +1,30 @@
+.navbar{
+  padding: 10px 30px;
+}
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 600;
+}
+i {
+  background: #fff;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 50%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+#lblCartCount {
+    font-size: 12px;
+    background: #ffb100;
+    color: #fff;
+    padding: 2px 5px;
+    vertical-align: top;
+    margin-left: -10px;
+}

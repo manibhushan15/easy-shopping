@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+      <h1>Product List</h1>
+      <table class="table">
+        <thead>
+          <tr>
+              <th scope="col">#</th>
+              <th scope="col">Title</th>
+              <th scope="col">Price</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody id="table-scroll">
+          <tr *ngFor="let product of products; let i = index;">
+            <th scope="row">{{ product.id }}</th>
+            <td>{{ product.name }}</td>
+            <td>{{ product.price }}</td>
+            <td>{{ product.quantity }}</td>
+            <td>
+              <button [disabled]="product.quantity == 0" (click)="addToCart(product, i)" *ngIf="!product.isAddedToCart">Add to Cart</button>
+              <button [disabled]="product.quantity == 0" (click)="addToCart(product, i)" *ngIf="product.isAddedToCart">+Add</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</div>

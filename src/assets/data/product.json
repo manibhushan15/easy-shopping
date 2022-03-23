@@ -1,0 +1,12 @@
+{
+  "productList": [
+    {"id": 1, "name": "Apple 13 pro", "price": 12000, "quantity": 5, "isAddedToCart": false, "isFav": false },
+    {"id": 2, "name": "Apple 13", "price": 100000, "quantity": 50, "isAddedToCart": false, "isFav": false },
+    {"id": 3, "name": "Apple 13 mini", "price": 80000, "quantity": 50, "isAddedToCart": false, "isFav": false },
+    {"id": 4, "name": "MI 9 pro", "price": 15000, "quantity": 5, "isAddedToCart": false, "isFav": false },
+    {"id": 5, "name": "Apple 11", "price": 120000, "quantity": 15, "isAddedToCart": false, "isFav": false },
+    {"id": 6, "name": "Apple 11 pro", "price": 120000, "quantity": 50, "isAddedToCart": false, "isFav": false },
+    {"id": 7, "name": "Apple 11 pro max", "price": 120000, "quantity": 5, "isAddedToCart": false, "isFav": false },
+    {"id": 8, "name": "Apple 12 pro", "price": 120000, "quantity": 50, "isAddedToCart": false, "isFav": false }
+]
+}
